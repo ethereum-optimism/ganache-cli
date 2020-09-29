@@ -24,7 +24,7 @@
   ],
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
-    "ganache-core": "2.12.1",
+    "ganache-core": "git+https://github.com/ethereum-optimism/ganache-core.git#b5c2115",
     "js-scrypt": "0.2.0",
     "node-loader": "^0.6.0",
     "notp": "2.0.3",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trufflesuite/ganache-cli"
+    "url": "https://github.com/ethereum-optimism/ganache-cli"
   },
   "license": "MIT",
   "release": {
