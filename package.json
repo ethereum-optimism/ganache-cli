@@ -1,5 +1,5 @@
 {
-  "name": "ganache-cli",
+  "name": "@ethereum-optimism/ganache-cli",
   "version": "6.11.0",
   "bin": {
     "ganache-cli": "cli.js"
@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node cli.js",
     "build": "webpack-cli --config ./webpack/webpack.node.config.js",
-    "docker": "docker build -t trufflesuite/ganache-cli . && docker run -p 8545:8545 trufflesuite/ganache-cli",
+    "docker": "docker build -t ethereumoptimism/ganache-cli . && docker run -p 8545:8545 trufflesuite/ganache-cli",
     "otp": "node ./scripts/generate-otp.js",
     "releaseNotes": "npx semantic-release --dry-run"
   },
@@ -24,7 +24,7 @@
   ],
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
-    "ganache-core": "git+https://github.com/ethereum-optimism/ganache-core.git#b5c2115",
+    "@eth-optimism/ganache-core": "^2.12.1",
     "js-scrypt": "0.2.0",
     "node-loader": "^0.6.0",
     "notp": "2.0.3",
