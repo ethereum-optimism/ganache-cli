@@ -1,5 +1,5 @@
 {
-  "name": "@ethereum-optimism/ganache-cli",
+  "name": "@eth-optimism/ganache-cli",
   "version": "6.11.1",
   "bin": {
     "ganache-cli": "cli.js"
